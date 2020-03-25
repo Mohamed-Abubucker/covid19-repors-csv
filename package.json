@@ -1,0 +1,30 @@
+{
+  "name": "covid19",
+  "version": "1.0.0",
+  "description": "this project uses covid19 API to dump the data as CSV files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "covid19",
+    "data",
+    "dump",
+    "csv"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohamed-Abubucker/covid19-reports-csv.git"
+  },
+  "author": "Mohamed Abubucker <abubucker.sed@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mohamed-Abubucker/covid19-reports-csv/issues"
+  },
+  "homepage": "https://github.com/Mohamed-Abubucker/covid19-reports-csv#readme",
+  "dependencies": {
+    "covid19-api": "^1.0.7",
+    "fs-extra": "^9.0.0",
+    "jsonexport": "^2.4.1"
+  }
+}
